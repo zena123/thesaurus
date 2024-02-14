@@ -9,16 +9,16 @@ import thesaurus.demo.models.SynonymGraph;
 public class DemoApplication {
 
 	public static void main(String[] args) {
-		// SpringApplication.run(DemoApplication.class, args);
-		SynonymGraph s  = new SynonymGraph();
-		s.addSynonym("hi", "hello");
-		s.addSynonym("hello", "holla");
-		s.addSynonym("B", "A");
-		s.addSynonym("C", "B");
-		s.getSynonyms("hello");
-		s.getSynonyms("C");
-		s.getTransitiveSynonyms("C");
-		s.printGraph();
+		SpringApplication.run(DemoApplication.class, args);
+		// SynonymGraph s  = new SynonymGraph();
+		// s.addSynonym("hi", "hello");
+		// s.addSynonym("hello", "holla");
+		// s.addSynonym("B", "A");
+		// s.addSynonym("C", "B");
+		// s.getSynonyms("hello");
+		// s.getSynonyms("C");
+		// s.getTransitiveSynonyms("C");
+		// s.printGraph();
 	}
 
 }
