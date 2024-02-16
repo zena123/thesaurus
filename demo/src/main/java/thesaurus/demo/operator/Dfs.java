@@ -1,6 +1,5 @@
 package thesaurus.demo.operator;
 
-import java.util.HashSet;
 import java.util.Set;
 
 import thesaurus.demo.models.SynonymGraph;

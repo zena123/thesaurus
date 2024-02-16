@@ -1,6 +1,5 @@
 package thesaurus.demo.operator;
 import lombok.AllArgsConstructor;
-import lombok.Setter;
 
 import java.util.Set;
 

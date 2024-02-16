@@ -43,11 +43,11 @@ public class SynonymGraph {
     }
 
 
-    public void printGraph() {
-        System.out.println("Synonym Graph:");
-        for (Map.Entry<String, Set<String>> entry : graph.entrySet()) {
-            System.out.print(entry.getKey() + " -> ");
-            System.out.println(String.join(", ", entry.getValue()));
-        }
-    }
+    // public void printGraph() {
+    //     System.out.println("Synonym Graph:");
+    //     for (Map.Entry<String, Set<String>> entry : graph.entrySet()) {
+    //         System.out.print(entry.getKey() + " -> ");
+    //         System.out.println(String.join(", ", entry.getValue()));
+    //     }
+    // }
 }
