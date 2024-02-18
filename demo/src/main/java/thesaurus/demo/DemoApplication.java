@@ -3,9 +3,9 @@ package thesaurus.demo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import thesaurus.demo.models.SynonymGraph;
-import thesaurus.demo.operator.Dfs;
-import thesaurus.demo.operator.SearchClass;
+// import thesaurus.demo.models.SynonymGraph;
+// import thesaurus.demo.operator.Dfs;
+// import thesaurus.demo.operator.SearchClass;
 
 @SpringBootApplication
 public class DemoApplication {
