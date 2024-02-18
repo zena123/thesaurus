@@ -5,14 +5,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import thesaurus.demo.models.SynonymGraph;
+import thesaurus.demo.operator.Dfs;
+import thesaurus.demo.operator.SearchClass;
 
 @Service
 public class ThesaurusService implements ThesaurusServiceInterface{
     private final SynonymGraph synonymGraph;
+    private final SearchClass searcher;
 
     @Autowired
     public ThesaurusService(SynonymGraph synonymGraph) {
         this.synonymGraph = synonymGraph;
+        this.searcher = new Dfs(synonymGraph);
+        this.synonymGraph.setSearcher(searcher);
     }
 
     @Override
