@@ -46,5 +46,5 @@ mvn clean install
         - word: The word to retrieve transitive synonyms for.
 
 ### Description
-- Data structures used: Undirected unweighted gragh implemented using adjacency list
-- Algorithm used: Depth First Search (DFS) is used to  implement a transitive rule diven a word
+- Data structures used: Undirected unweighted graph implemented using adjacency list
+- Algorithm used: Depth First Search (DFS) is used to  implement a transitive rule given a word
